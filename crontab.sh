@@ -1,8 +1,8 @@
 #!/bin/sh
 
-cd /root/silk/Crontab_test
+cd /root/silk/Crontab_test/
 
-git add /root/silk/Crontab_test/. >result.txt
+git add .
 
 git checkout -b testbranch
 
@@ -16,6 +16,5 @@ git commit -am "$(date) commit test" >> /root/silk/Crontab_test/result.txt
 
 git push --set-upstream origin testbranch >> /root/silk/Crontab_test/result.txt
 
-cat /root/silk/Crontab_test/result.txt | mail -s "[git plan] crontab auto" dldudgjs31@naver.com
 
 
