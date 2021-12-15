@@ -1,3 +1,6 @@
 [testbranch 2b3acbb] Wed Dec 15 21:12:36 KST 2021 commit test
  2 files changed, 8 insertions(+), 2 deletions(-)
 Branch testbranch set up to track remote branch testbranch from origin.
+[testbranch 4ab0a58] Wed Dec 15 21:20:35 KST 2021 commit test
+ 3 files changed, 9 insertions(+), 3 deletions(-)
+Branch testbranch set up to track remote branch testbranch from origin.
