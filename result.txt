@@ -20,3 +20,6 @@ Branch testbranch set up to track remote branch testbranch from origin.
  4 files changed, 8 insertions(+), 5 deletions(-)
  create mode 100644 .result.txt.swp
 Branch testbranch set up to track remote branch testbranch from origin.
+[testbranch 256fd2d] Wed Dec 15 22:41:02 KST 2021 commit test
+ 2 files changed, 5 insertions(+)
+Branch testbranch set up to track remote branch testbranch from origin.
