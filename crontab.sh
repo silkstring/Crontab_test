@@ -12,7 +12,7 @@ eval $(ssh-agent -s)
 
 ssh-add ~/.ssh/silk
 
-/root/bin/git commit -am "$(date) commit test" >> result.txt
+/root/bin/git commit -am "$(date) commit test" > result.txt
 
 /root/bin/git push --set-upstream origin testbranch >> result.txt
 
