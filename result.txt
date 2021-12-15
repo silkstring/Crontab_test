@@ -16,3 +16,7 @@ Branch testbranch set up to track remote branch testbranch from origin.
 [testbranch 6df3098] Wed Dec 15 22:03:15 KST 2021 commit test
  2 files changed, 4 insertions(+)
 Branch testbranch set up to track remote branch testbranch from origin.
+[testbranch 1d36d76] Wed Dec 15 22:39:11 KST 2021 commit test
+ 4 files changed, 8 insertions(+), 5 deletions(-)
+ create mode 100644 .result.txt.swp
+Branch testbranch set up to track remote branch testbranch from origin.
