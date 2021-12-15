@@ -6,15 +6,15 @@ git add .
 
 git checkout -b testbranch
 
-echo $(date) >> /root/silk/Crontab_test/test.txt
+echo $(date) >> test.txt
 
 eval $(ssh-agent -s)
 
-ssh-add /root/.ssh/silk
+ssh-add ~/.ssh/silk
 
-git commit -am "$(date) commit test" >> /root/silk/Crontab_test/result.txt
+git commit -am "$(date) commit test" >> result.txt
 
-git push --set-upstream origin testbranch >> /root/silk/Crontab_test/result.txt
+git push --set-upstream origin testbranch >> result.txt
 
 
 
