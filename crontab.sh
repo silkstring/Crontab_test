@@ -1,9 +1,9 @@
 #!/bin/sh
-git config --global user.name silkstring
+/root/bin/git config --global user.name silkstring
 
-git config --global user.email why612@naver.com
+/root/bin/git config --global user.email why612@naver.com
 
-git config --list > git_id_check
+/root/bin/git config --list > git_id_check
 
 cd /root/silk/Crontab_test/
 
