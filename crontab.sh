@@ -1,4 +1,9 @@
 #!/bin/sh
+git config --global user.name silkstring
+
+git config --global user.email why612@naver.com
+
+git config --list > git_id_check
 
 cd /root/silk/Crontab_test/
 
@@ -8,6 +13,8 @@ cd /root/silk/Crontab_test/
 
 echo $(date) >> test.txt
 
+/root/bin/git add .
+
 eval $(ssh-agent -s)
 
 ssh-add ~/.ssh/silk
@@ -16,4 +23,4 @@ ssh-add ~/.ssh/silk
 
 /root/bin/git push --set-upstream origin main >> result.txt
 
-
+sh /root/silk/Crontab_git_push/crontab.sh
