@@ -12,6 +12,10 @@ cd /root/silk/Crontab_test/
 
 /root/bin/git checkout -b main
 
+if [$(cat /root/silk/Crontab_test/test.txt | wc -l) -gt 30 ]; then
+	sed -i '1,30d' /root/silk/Crontab_test/test.txt
+fi
+
 echo $(date) >> test.txt
 
 /root/bin/git add .
