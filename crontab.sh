@@ -28,4 +28,4 @@ ssh-add /home/youngtec/git/silkstring
 
 /usr/local/cpanel/3rdparty/lib/path-bin/git push --set-upstream origin main
 
-#sh /root/silk/Crontab_git_push/crontab.sh
+sh /home/youngtec/git/Crontab_test_push/crontab.sh
