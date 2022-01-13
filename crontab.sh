@@ -22,7 +22,7 @@ echo $(date) >> test.txt
 
 eval $(ssh-agent -s)
 
-ssh-add ~/.ssh/silk
+ssh-add /home/youngtec/git/silkstring
 
 /usr/local/cpanel/3rdparty/lib/path-bin/git commit -am "$(date) commit test" 
 
