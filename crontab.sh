@@ -4,7 +4,7 @@ cd /home/youngtec/git/Crontab_test
 /usr/local/cpanel/3rdparty/lib/path-bin/git config --global user.name silkstring
 /usr/local/cpanel/3rdparty/lib/path-bin/git config --global user.mail why612@naver.com
 /usr/local/cpanel/3rdparty/lib/path-bin/git config --global user.email why612@naver.com
-/usr/local/cpanel/3rdparty/lib/path-bin/git config --list > /root/silk/Crontab_test/git_id_check
+/usr/local/cpanel/3rdparty/lib/path-bin/git config --list > /home/youngtec/git/Crontab_test/git_id_check
 
 cd /home/youngtec/git/Crontab_test
 
